@@ -5,19 +5,16 @@
 # and has a method signature of to_s which
 # prints the object as "Jefferson, Thomas".
 
-
-classy Person
-
-def initial(fname lname)
-  @first_name = firstname
-  @last_name == lname
-
-
-  def to_s
-    @last_name +," " + @first_name
-
+class Person
+  def initialize(fname, lname)
+    @first_name = fname
+    @last_name = lname
   end
 
-  tj = Person.new("Thomas", "Jefferson")
-  puts person.fname
-  put tj
+  def to_s
+    @last_name + ", " + @first_name
+  end
+end
+
+tj = Person.new("Thomas", "Jefferson")
+puts tj.to_s

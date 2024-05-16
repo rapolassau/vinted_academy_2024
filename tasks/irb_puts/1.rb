@@ -1,9 +1,9 @@
 #Pirates
 
-put "Hello!
+puts "Hello!"
 greeting = gets.chomp()
-if answer["Arrr!"]
+if greeting["Arrr!"]
 	puts "Go away, pirate."
-
 elsif
 	puts "Greetings, hater of pirates!"
+end
